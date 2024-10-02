@@ -1,0 +1,18 @@
+:root {
+  --bg-prime: #161b22;
+  --bg-main: #0d1117;
+  --color-prime: #a5a6a7;
+}
+.b-prime {
+  background-color: var(--bg-prime);
+}
+.b-main {
+  background-color: var(--bg-main);
+}
+.c-prime {
+  color: var(--color-prime);
+}
+
+.bi {
+  cursor: pointer;
+}
