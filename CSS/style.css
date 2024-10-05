@@ -4,6 +4,9 @@
   --bg-icon: #474a4e;
   --color-prime: #a5a6a7;
 }
+.w-fit {
+  width: fit-content;
+}
 .b-prime {
   background-color: var(--bg-prime);
 }
@@ -22,4 +25,8 @@
 }
 .parent-icon:hover {
   background-color: var(--bg-icon);
+}
+.parent-index {
+  width: 25px;
+  height: 25px;
 }
