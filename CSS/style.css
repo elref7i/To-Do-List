@@ -30,3 +30,16 @@
   width: 25px;
   height: 25px;
 }
+.task-data {
+  background: rgba(61, 61, 61, 0.053);
+  z-index: 9999;
+}
+select {
+  position: relative;
+}
+.title {
+  position: absolute;
+  color: #000;
+  z-index: 5555555;
+  background-color: aqua;
+}
