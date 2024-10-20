@@ -46,7 +46,16 @@ select {
   z-index: 5555555;
   background-color: aqua;
 }
-
+.task-title {
+  text-wrap: nowrap;
+}
 .task-data {
   display: none;
+}
+.card-body {
+  overflow: auto;
+}
+.content-note-width {
+  min-width: 300px;
+  max-width: 300px;
 }

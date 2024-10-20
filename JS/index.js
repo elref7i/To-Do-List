@@ -31,3 +31,19 @@ $('.input-data').on('click', function () {
   console.log($('#title-input').val());
   console.log($('#description-input').val());
 });
+
+$('.grid-icon').on('click', function (e) {
+  let currentActive = $('.icons-grid-system .b-icon');
+  $(currentActive).removeClass('b-icon');
+  $(this).parent().addClass('b-icon');
+  console.log();
+  if ($(this).attr('id') === 'column-tasks') {
+    $('.card-body').removeClass('flex-column');
+    $('.parent-note').removeClass('col-lg-4 , col-md-6');
+    $('.content-note').addClass('content-note-width');
+  } else {
+    $('.card-body').addClass('flex-column');
+    $('.parent-note').addClass('col-lg-4 , col-md-6');
+    $('.content-note').removeClass('content-note-width');
+  }
+});
